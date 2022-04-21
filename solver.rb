@@ -7,5 +7,7 @@ class Solver
   end
 
   def reverse(str)
+    raise ArgumentError if !str.is_a?(String)
+    return str.reverse
   end
 end
