@@ -10,4 +10,7 @@ class Solver
     raise ArgumentError if !str.is_a?(String)
     return str.reverse
   end
+
+  def fizzbuzz(num)
+  end
 end
