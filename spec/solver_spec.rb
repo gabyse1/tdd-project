@@ -30,8 +30,8 @@ describe Solver do
     end
 
     it 'return the input string in reverse order' do
-      reverseString = @solver.reverse('hello')
-      expect(reverseString).to eql 'olleh'
+      reverse_string = @solver.reverse('hello')
+      expect(reverse_string).to eql 'olleh'
     end
   end
 
