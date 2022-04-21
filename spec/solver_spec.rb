@@ -45,7 +45,7 @@ describe Solver do
     end
 
     it 'returns "buzz" if the input number is divisible by 5' do
-      expect(@solver.fizzbuzz(10)).to eql 'fizz'
+      expect(@solver.fizzbuzz(10)).to eql 'buzz'
     end
 
     it 'returns "fizzbuzz" if the input number is divisible by 3 and 5' do
