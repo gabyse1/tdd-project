@@ -1,0 +1,20 @@
+{
+  "name": "tdd-project",
+  "version": "1.0.0",
+  "description": "Build a project using the test-driven development methodology.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabyse1/tdd-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabyse1/tdd-project/issues"
+  },
+  "homepage": "https://github.com/gabyse1/tdd-project#readme"
+}
