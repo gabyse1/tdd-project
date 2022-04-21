@@ -16,7 +16,7 @@ describe Solver do
     end
 
     it 'throws an argument error if the input parameter is a negative integer' do
-      # expect { @solver.factorial(-5) }.to raise_exception ArgumentError
+      expect { @solver.factorial(-5) }.to raise_exception ArgumentError
     end
 
     it 'throws an argument error if the input parameter is a string' do
