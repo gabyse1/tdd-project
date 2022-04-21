@@ -33,5 +33,27 @@ describe Solver do
       reverseString = @solver.reverse('hello')
       expect(reverseString).to eql 'olleh'
     end
-  end 
+  end
+
+  context '#fizzbuzz method' do
+    it 'throws an argument error if the input parameter is not an integer' do
+      expect { @solver.fizzbuzz('50') }.to raise_exception ArgumentError
+    end
+
+    it 'returns "fizz" if the input number is divisible by 3' do
+      expect(@solver.fizzbuzz(9)).to eql 'fizz'
+    end
+
+    it 'returns "buzz" if the input number is divisible by 5' do
+      expect(@solver.fizzbuzz(10)).to eql 'fizz'
+    end
+
+    it 'returns "fizzbuzz" if the input number is divisible by 3 and 5' do
+      expect(@solver.fizzbuzz(30)).to eql 'fizzbuzz'
+    end
+
+    it 'returns the input number as a string if it is not divisible by 3, 5 and 15' do
+      expect(@solver.fizzbuzz(7)).to eql '7'
+    end
+  end
 end
